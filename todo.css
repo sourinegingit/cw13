@@ -27,9 +27,14 @@
 }
 
 .to-do-list{
-display: flex;
-justify-content: space-between;
-flex-direction: row-reverse;
+    background-color: gray;
+    border-radius: 10px;
+    
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
 }
 .to-do-item-rigth{
     display: flex;
@@ -41,7 +46,12 @@ flex-direction: row-reverse;
     gap: 10px;
 }
 
-
+.to-do{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+}
 
 
 
